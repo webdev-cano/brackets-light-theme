@@ -1,6 +1,10 @@
 brackets-light
 ==============
 
-This is an adaption of the Bracket's 'Light Theme' into a theme for the Espresso Code Editor.
+Bracket's 'Light Theme' port for the Espresso code editor.
+
+v0.1
+---
+* Initial styles.
 
 Note** It hasn't fully been converted yet, though it is fully funtional.
