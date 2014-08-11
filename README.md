@@ -7,4 +7,4 @@ v0.1
 ---
 * Initial styles.
 
-Note** It hasn't fully been ported yet, though it is fully funtional.
+Note** It hasn't fully been ported yet, though it is fully functional.
