@@ -1,7 +1,7 @@
 /*
-	@theme Bracekts Color
-	@override-placeholders html, xml, sourcecode.js
-	@Developer: Carlos Cano
+	@theme Brackets Color
+	@override-placeholders html, xml, sourcecode.js, css
+	@author: Carlos Cano
 */
 
 :document-base {
@@ -102,3 +102,47 @@ invalid {
 	background-color: #f93232;
 	color: #f9f2ce;
 }
+
+/* @group CSS */
+
+css.embedded {
+	background: #f8f8f8;
+}
+
+css selector, css selector punctuation {
+	color: #0081c2;
+}
+
+css property-name {
+	color: #8757ad;
+}
+
+css property-value constant, css property-value keyword {
+	color: #82b839;
+}
+
+css property-value {
+	color: #f18900;
+}
+css punctuation {
+	color: #535353;
+}
+
+css comment punctuation {
+	color: #776644;
+}
+
+css keyword.important {
+	color: #0081c2;
+	font-weight: bold;
+}
+
+css color, css color punctuation {
+	color: #abc837;
+}
+
+css group-start name {
+	font-weight: bold;
+}
+
+/* @end */
