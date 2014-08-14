@@ -131,7 +131,6 @@ css punctuation {
 css comment punctuation {
 	color: #776644;
 }
-
 css keyword.important {
 	color: #0081c2;
 	font-weight: bold;
@@ -145,4 +144,40 @@ css group-start name {
 	font-weight: bold;
 }
 
+/* @end */
+
+/* @group Javascript */
+
+js storage {
+  color: #0081c2;
+}
+js variable {
+  color: #0081c2;
+}
+js constant {
+  color: #f18900;
+  background-color: #f8f8f8;
+}
+js delimiter { color:#ccc; }
+js keyword, js storage { color: #0081c2;  }
+js comment, js comment.line, js comment.line > punctuation, js comment.single-line, js comment.single-line > punctuation{ color:  #999; }
+js > operator { color: #535353; }
+js string { 
+	color:  #f18900;
+}
+js function > name{
+	color: #865fdb;
+}
+js constant.numeric, js constant.language {
+	color: #f18900;
+	background-color: #f8f8f8;
+}
+js class.constructor > class {
+	color: #333333;
+	font-weight: bold;
+}
+regex punctuation, regex operator, regex constant, regex group > punctuation {
+	color: #f18900;
+	background-color: #f8f8f8;
+}
 /* @end */
